@@ -5,17 +5,12 @@ provider "aws" {
 variable "ecr_repo_names" {
   type = "list"
 
-  default = ["burrow",
-    "dynamic-dynamodb-worker",
-    "event",
-    "transformer",
-    "notification",
-    "noae-retry",
-    "shining-bot",
-    "rating",
-    "usage",
-    "api-gateway",
-    "revenue-distribution",
+  default = [
+    "repo1",
+    "repo2",
+    "repo3",
+    "repo4",
+    "repo5",
   ]
 }
 
